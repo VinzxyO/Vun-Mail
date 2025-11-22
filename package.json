@@ -1,0 +1,21 @@
+{
+  "name": "tempmail-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for managing temporary emails",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "keywords": ["telegram", "bot", "tempmail"],
+  "author": "VinzxyO <https://github.com/VinzxyO>",
+  "license": "MIT",
+  "dependencies": {
+    "telegraf": "^4.12.2",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
