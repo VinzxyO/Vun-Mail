@@ -34,10 +34,14 @@ A powerful Telegram bot that allows users to create and manage temporary email a
    ```
 
 4. Configure environment variables in `.env`:
+   
+   Refer to the [.env.example](https://github.com/VinzxyO/Vun-Mail/blob/main/.env.example) file for instructions on setting up your environment variables.
+   
+   Detailed explanation of each variable:
    - `BOT_TOKEN` - Your Telegram bot token from [@BotFather](https://t.me/BotFather)
    - `API_KEY` - Temp Mail API key from [Temp Mail Dashboard](https://chat-tempmail.com/id/profile)
    - `ADMIN_ID` - Your Telegram user ID for admin access (get it from [@userinfobot](https://t.me/userinfobot))
-   - `PROXIES` - Optional comma-separated list of proxies for rate limit handling
+   - `HTTP_PROXY` / `HTTPS_PROXY` - Optional proxy settings for rate limit handling
 
 5. Start the bot:
    ```bash
