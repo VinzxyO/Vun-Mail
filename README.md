@@ -19,19 +19,27 @@ A powerful Telegram bot that allows users to create and manage temporary email a
 
 ## Setup
 
-1. Clone the repository
-2. Install dependencies:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/VinzxyO/Vun-Mail.git
+   ```
+
+2. Change to the project directory:
+   ```bash
+   cd Vun-Mail
+   ```
+3. Install dependencies:
    ```bash
    npm install
    ```
 
-3. Configure environment variables in `.env`:
+4. Configure environment variables in `.env`:
    - `BOT_TOKEN` - Your Telegram bot token from [@BotFather](https://t.me/BotFather)
    - `API_KEY` - Temp Mail API key from [Temp Mail Dashboard](https://chat-tempmail.com/id/profile)
    - `ADMIN_ID` - Your Telegram user ID for admin access (get it from [@userinfobot](https://t.me/userinfobot))
    - `PROXIES` - Optional comma-separated list of proxies for rate limit handling
 
-4. Start the bot:
+5. Start the bot:
    ```bash
    npm start
    ```
