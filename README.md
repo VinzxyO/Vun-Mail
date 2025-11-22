@@ -1,6 +1,6 @@
 # Vun Mail - Telegram Temporary Email Bot
 
-![Vun Mail](https://files.catbox.moe/hmhl11.jpg)
+![Vun Mail](https://files.catbox.moe/7a9jci.jpg)
 
 **Author:** [VinzxyO](https://github.com/VinzxyO)
 
